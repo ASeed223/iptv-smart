@@ -751,13 +751,3 @@ https://bein-xtra-bein.amagi.tv/playlist.m3u8
 https://wurl120sports.global.transmit.live/hls/679a907dce42a042c23ace37/v1/stadium_gracenote/samsung_us/latest/main/hls/playlist.m3u8
 #EXTINF:-1 tvg-id="Pac-12 Insider" tvg-name="Pac-12 Insider" tvg-logo="https://i.imgur.com/736QREy.png" group-title="美国频道",Pac-12 Insider·未验
 https://pac12-firetv.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="QVC" tvg-name="QVC" tvg-logo="https://play-lh.googleusercontent.com/58IEgCECrId5YdLMZWL9ohHzyZCY1lNduLVxK9QF1P5EZuSIJScTWEMaw2efd88zMkc" group-title="美国频道",QVC·未验
-https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc1us/master.m3u8
-#EXTINF:-1 tvg-id="QVC2" tvg-name="QVC2" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/ab/QVC2_%282017%29.svg/revision/latest/scale-to-width-down/512" group-title="美国频道",QVC2·未验
-https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc2us/master.m3u8
-#EXTINF:-1 tvg-id="QVC3" tvg-name="QVC3" tvg-logo="https://i.imgur.com/edswdOO.png" group-title="美国频道",QVC3·未验
-https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc3us/master.m3u8
-#EXTINF:-1 tvg-id="HSN" tvg-name="HSN" tvg-logo="https://m.media-amazon.com/images/I/419RyCp4+WL.png" group-title="美国频道",HSN·未验
-https://qvc-amd-live.akamaized.net/hls/live/2034113/lshsn1us/master.m3u8
-#EXTINF:-1 tvg-id="HSN2" tvg-name="HSN2" tvg-logo="https://i.imgur.com/uXBPJHZ.png" group-title="美国频道",HSN2·未验
-https://qvc-amd-live.akamaized.net/hls/live/2034113/lshsn2us/master.m3u8

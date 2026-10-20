@@ -14,7 +14,7 @@
 - Working streams >=3840 wide / 4K (all, incl. backups): 4
 
 ## Output files (validated M3U entry counts)
-- smart.m3u: 381 entries (top 3 working per channel)
+- smart.m3u: 376 entries (top 3 working per channel)
 - 1080p.m3u: 210 entries
 - 4k.m3u: 4 entries
 - backup.m3u: 43 entries
@@ -32,7 +32,7 @@
 - 少儿频道: 7
 - 音乐频道: 7
 - 电台: 40
-- 美国频道: 30
+- 美国频道: 25
 - 其他: 0
 - 其他 count in smart.m3u: 0
 
@@ -138,6 +138,7 @@
 
 ### Round 3 补充：美国未验频道 (US unverified - home test)
 - Stanley approved (2026-10-20): curated US channels walled off from this cloud by their CDNs (master playlist loads, variant/segment layer refuses) are included in smart.m3u ONLY, tagged ·未验， for home testing. A channel graduates when Stanley confirms it plays at home (config user_verified_channels -> normal quality tag); it is dropped if it fails at home too. Hard-dead candidates (master playlist itself 404 / DNS / connection refused) stay excluded. Never in 1080p.m3u / 4k.m3u (resolution unknown).
+- Shopping channels excluded per Stanley's preference (2026-10-20, "购物的不要 只要主流的" - mainstream channels only; config us_unverified_exclude): HSN, HSN2, QVC, QVC2, QVC3. (19 unverified channels / 24 entries remain after this exclusion.)
   - ABC News Live: 2 unverified URL(s) included （未验）
   - NBC News NOW: 2 unverified URL(s) included （未验）
   - CBS News: 1 unverified URL(s) included （未验）
@@ -157,12 +158,7 @@
   - beIN Sports Xtra: 1 unverified URL(s) included （未验）
   - Stadium: 1 unverified URL(s) included （未验）
   - Pac-12 Insider: 1 unverified URL(s) included （未验）
-  - QVC: 1 unverified URL(s) included （未验）
-  - QVC2: 1 unverified URL(s) included （未验）
-  - QVC3: 1 unverified URL(s) included （未验）
-  - HSN: 1 unverified URL(s) included （未验）
-  - HSN2: 1 unverified URL(s) included （未验）
-- Total unverified US entries added to smart.m3u: 29
+- Total unverified US entries added to smart.m3u: 24
 - US hard-dead candidates excluded this round: 4 URL(s); 9 additional wall-passing URL(s) left out by the 2-per-channel cap
 
 ### Documentary channels （纪录频道 - new group)
