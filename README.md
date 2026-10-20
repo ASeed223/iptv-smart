@@ -19,7 +19,7 @@ https://raw.githubusercontent.com/ASeed223/iptv-smart/main/smart.m3u
 - `report.md` — latest validation report
 - `diagnostics.csv` — per-stream test results (URLs sanitized, with source_origin column)
 
-Channel display names carry a **quality label** based on each stream's verified resolution — `·4K` / `·1080p` / `·720p` / `·标清` (`·未验` = kept-unverified fallback) — so duplicate sources of the same channel can be told apart at a glance in APTV. Sources of a channel stay consecutive, best first.
+Channel display names carry a **quality label** based on each stream's verified resolution — `·4K` / `·1080p` / `·720p` / `·标清` (`·未验` = kept-unverified fallback) — so duplicate sources of the same channel can be told apart at a glance in APTV. Sources of a channel stay consecutive, best first; duplicate sources beyond the best one are tagged `·备用1` / `·备用2` before the quality tag (e.g. `翡翠台·备用1·1080p`), while the best source carries no 备用 tag.
 
 ## Notes
 

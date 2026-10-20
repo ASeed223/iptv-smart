@@ -1,6 +1,6 @@
 # IPTV Smart Playlist - Round 2 Report
 
-- Last update: 2026-10-20 09:24:58 PDT (America/Los_Angeles)
+- Last update: 2026-10-20 09:50:43 PDT (America/Los_Angeles)
 - Verification scope: **Cloud Verified only - NOT California Verified.** Streams were tested from this cloud environment; playback in California is not guaranteed.
 - Sources: Guovin iptv-api result.m3u (primary) + iptv-org cn/hk/tw (second source) + public aggregator music hunt (see Round 2 section)
 
@@ -50,7 +50,7 @@
 - Category rule changed: 风云音乐 and CCTV-15 now classify into 音乐频道 (previously swallowed by 央视）. 音乐频道 entries in smart.m3u: 6
 - CCTV-15 verdict: 4/10 sources working after full-ladder retest (best 1280x720 h264 via direct)
 - Music hunt source fanmingming: 82 entries scanned, 1 music candidates, 0 new candidate streams added to the pool
-- Music hunt source vbskycn: 520 entries scanned, 4 music candidates, 2 new candidate streams added to the pool
+- Music hunt source vbskycn: 519 entries scanned, 4 music candidates, 2 new candidate streams added to the pool
 - Music hunt source zbefine: 1286 entries scanned, 1 music candidates, 1 new candidate streams added to the pool
 - Music hunt source yang-goodiptv: PENDING - fetch failed (HTTPError: HTTP Error 404: Not Found); its candidates were NOT included.
 - Hunt-verified music channel: 音乐欣赏 (1280x720 h264, 1 working source(s))
@@ -69,6 +69,7 @@
 
 ### Quality labels
 - Display names in all M3U files now carry a verified-resolution tag (·4K / ·1080p / ·720p / ·标清； ·未验 for kept-unverified must-have fallbacks). tvg-id/tvg-name are unchanged; sources of a channel stay consecutive, best first.
+- Backup-source name tags: in smart.m3u / 1080p.m3u / 4k.m3u, duplicate sources of a channel are tagged ·备用1 / ·备用2 before the quality tag (e.g. 翡翠台·备用1·1080p) so the best source (untagged) is easy to spot; backup.m3u itself carries no tags.
 
 ## Round 1.5 correction
 - Round 1 falsely killed a class of streams: HLS segments disguised as .jpg/.php (rejected by ffprobe's default extension check) and CDNs that cut ffprobe's TLS connection. Retest used `-extension_picky 0` + a browser User-Agent, plus a segment-file fallback (curl-fetch playlist, download first segment, ffprobe locally).
