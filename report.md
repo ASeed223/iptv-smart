@@ -1,6 +1,6 @@
 # IPTV Smart Playlist - Round 3 Report
 
-- Last update: 2026-10-20 10:59:16 PDT (America/Los_Angeles)
+- Last update: 2026-10-20 11:27:37 PDT (America/Los_Angeles)
 - Verification scope: **Cloud Verified only - NOT California Verified.** Streams were tested from this cloud environment; playback in California is not guaranteed.
 - Sources: Guovin iptv-api result.m3u (primary) + iptv-org cn/hk/tw (second source) + public aggregator music hunt (see Round 2 section) + Round 3: iptv-org US & documentary, Free-TV, Radio Browser (see Round 3 section)
 
@@ -14,7 +14,7 @@
 - Working streams >=3840 wide / 4K (all, incl. backups): 4
 
 ## Output files (validated M3U entry counts)
-- smart.m3u: 352 entries (top 3 working per channel)
+- smart.m3u: 381 entries (top 3 working per channel)
 - 1080p.m3u: 210 entries
 - 4k.m3u: 4 entries
 - backup.m3u: 43 entries
@@ -32,7 +32,7 @@
 - 少儿频道: 7
 - 音乐频道: 7
 - 电台: 40
-- 美国频道: 1
+- 美国频道: 30
 - 其他: 0
 - 其他 count in smart.m3u: 0
 
@@ -135,6 +135,35 @@
   - Stadium: 0/2 working - all candidates failed the ladder (dead or geo-blocked from the cloud)
   - The Weather Channel: 0/1 working - all candidates failed the ladder (dead or geo-blocked from the cloud)
   - beIN Sports Xtra: 0/1 working - all candidates failed the ladder (dead or geo-blocked from the cloud)
+
+### Round 3 补充：美国未验频道 (US unverified - home test)
+- Stanley approved (2026-10-20): curated US channels walled off from this cloud by their CDNs (master playlist loads, variant/segment layer refuses) are included in smart.m3u ONLY, tagged ·未验， for home testing. A channel graduates when Stanley confirms it plays at home (config user_verified_channels -> normal quality tag); it is dropped if it fails at home too. Hard-dead candidates (master playlist itself 404 / DNS / connection refused) stay excluded. Never in 1080p.m3u / 4k.m3u (resolution unknown).
+  - ABC News Live: 2 unverified URL(s) included （未验）
+  - NBC News NOW: 2 unverified URL(s) included （未验）
+  - CBS News: 1 unverified URL(s) included （未验）
+  - CBS Sports HQ: 1 unverified URL(s) included （未验）
+  - Fox Weather: 1 unverified URL(s) included （未验）
+  - FOX Live Now: 1 unverified URL(s) included （未验）
+  - Scripps News: 1 unverified URL(s) included （未验）
+  - Court TV: 2 unverified URL(s) included （未验）
+  - PBS: 1 unverified URL(s) included （未验）
+  - PBS Kids: 1 unverified URL(s) included （未验）
+  - Newsmax TV: 2 unverified URL(s) included （未验）
+  - Newsmax 2: 1 unverified URL(s) included （未验）
+  - Real America's Voice: 2 unverified URL(s) included （未验）
+  - AccuWeather NOW: 1 unverified URL(s) included （未验）
+  - The Weather Channel: 1 unverified URL(s) included （未验）
+  - Fubo Sports Network: 1 unverified URL(s) included （未验）
+  - beIN Sports Xtra: 1 unverified URL(s) included （未验）
+  - Stadium: 1 unverified URL(s) included （未验）
+  - Pac-12 Insider: 1 unverified URL(s) included （未验）
+  - QVC: 1 unverified URL(s) included （未验）
+  - QVC2: 1 unverified URL(s) included （未验）
+  - QVC3: 1 unverified URL(s) included （未验）
+  - HSN: 1 unverified URL(s) included （未验）
+  - HSN2: 1 unverified URL(s) included （未验）
+- Total unverified US entries added to smart.m3u: 29
+- US hard-dead candidates excluded this round: 4 URL(s); 9 additional wall-passing URL(s) left out by the 2-per-channel cap
 
 ### Documentary channels （纪录频道 - new group)
 - Category rule: CCTV-9 and CCTV世界地理 moved out of 央视； all 纪实/纪录/地理 channels classify here. iptv-org documentary category fetched 273 entries -> 3 China-related candidates; aggregator doc hunt -> 7 candidates

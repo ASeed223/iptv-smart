@@ -27,7 +27,7 @@ Channel display names carry a **quality label** based on each stream's verified 
 
 - **纪录频道** (Round 3): documentary channels grouped by content — CCTV-9 and CCTV世界地理 live here instead of 央视， together with CGTN纪录， 之江纪录 and other verified 纪实/纪录 channels.
 - **电台** (Round 3): radio stations (audio only) — CNR 中国之声/经济之声/音乐之声， RTHK 香港电台第一/二/普通话台， 新城/商业电台， Guangdong and Shanghai stations, US Chinese-language stations （星岛中文电台， 美国中文电台， KVTO, KMRB) and KQED/KALW. Radio entries are verified with an audio probe (healthy audio stream + short decode) and labeled with the verified bitrate (`·128k` style, or `·电台音频` when the bitrate can't be measured) instead of a resolution.
-- **美国频道** (Round 3): a curated allowlist of US national/free channels matched against iptv-org US + Free-TV. Yield is limited from the cloud test environment — most US CDN streams refuse non-US / cloud egress at the variant level even when their playlists load, so only independently verified channels are listed (currently Bloomberg TV). This group is expected to grow only when sources verify.
+- **美国频道** (Round 3): a curated allowlist of US national/free channels matched against iptv-org US + Free-TV. Yield is limited from the cloud test environment — most US CDN streams refuse non-US / cloud egress at the variant level even when their playlists load, so only independently verified channels are listed as regular entries (currently Bloomberg TV). Exception (Stanley-approved): walled channels whose master playlist still loads are also listed in `smart.m3u` tagged `·未验` — **·未验 = cloud-blocked, pending home test**; they are unverified, appear only in smart.m3u (never in 1080p.m3u / 4k.m3u), and graduate to a normal quality tag once confirmed playing at home.
 
 ## Notes
 
