@@ -1,29 +1,29 @@
 # IPTV Smart Playlist - Round 3 Report
 
-- Last update: 2026-10-21 16:56:00 PDT (America/Los_Angeles)
+- Last update: 2026-10-21 21:03:49 PDT (America/Los_Angeles)
 - Verification scope: **Cloud Verified only - NOT California Verified.** Streams were tested from this cloud environment; playback in California is not guaranteed.
 - Sources: Guovin iptv-api result.m3u (primary) + iptv-org cn/hk/tw (second source) + public aggregator music hunt (see Round 2 section) + Round 3: iptv-org US & documentary, Free-TV, Radio Browser (see Round 3 section)
 
 ## Totals
 - Candidate streams: 1016
-- Working streams: 361
-- Failed streams: 655
+- Working streams: 355
+- Failed streams: 661
 - Unique logical channels after dedup: 417
 - Duplicate entries folded: 599
-- Working streams >=1920x1080 (all, incl. backups): 159
+- Working streams >=1920x1080 (all, incl. backups): 158
 - Working streams >=3840 wide / 4K (all, incl. backups): 2
 
 ## Output files (validated M3U entry counts)
-- smart.m3u: 353 entries (top 3 working per channel)
-- 1080p.m3u: 159 entries
+- smart.m3u: 350 entries (top 3 working per channel)
+- 1080p.m3u: 158 entries
 - 4k.m3u: 2 entries
-- backup.m3u: 32 entries
+- backup.m3u: 28 entries
 
 ## Groups in smart.m3u (pure-Chinese group titles)
 - 港澳频道: 18
-- 央视: 60
+- 央视: 57
 - 广东频道: 18
-- 地方卫视: 135
+- 地方卫视: 136
 - 台湾频道: 6
 - 体育频道: 6
 - 新闻频道: 0
@@ -32,7 +32,7 @@
 - 少儿频道: 7
 - 音乐频道: 7
 - 电台: 40
-- 美国频道: 24
+- 美国频道: 23
 - 其他: 0
 - 其他 count in smart.m3u: 0
 
@@ -50,7 +50,7 @@
 ## Round 2 upgrades
 ### Music channels （音乐频道）
 - Category rule changed: 风云音乐 and CCTV-15 now classify into 音乐频道 (previously swallowed by 央视）. 音乐频道 entries in smart.m3u: 7
-- CCTV-15 verdict: 4/10 sources working after full-ladder retest (best 1280x720 h264 via direct)
+- CCTV-15 verdict: 3/10 sources working after full-ladder retest (best 1920x1080 h264 via direct)
 - Music hunt source fanmingming: 82 entries scanned, 1 music candidates, 0 new candidate streams added to the pool
 - Music hunt source vbskycn: 458 entries scanned, 3 music candidates, 2 new candidate streams added to the pool
 - Music hunt source zbefine: 1286 entries scanned, 1 music candidates, 1 new candidate streams added to the pool
@@ -104,11 +104,11 @@
 
 ## Round 3 expansion
 ### US channels （美国频道）
-- iptv-org US fetched 1483 entries -> 35 curated candidate streams; Free-TV USA group 28 entries -> 9 curated candidates; US-Chinese hunt in Chinese aggregators -> 0 candidates
+- iptv-org US fetched 1486 entries -> 35 curated candidate streams; Free-TV USA group 28 entries -> 9 curated candidates; US-Chinese hunt in Chinese aggregators -> 0 candidates
 - Extra-source US candidates tested with the full ladder: 44 (+0 hunt) -> verified working: 1
   - 美国之音: 0/1 working - all candidates failed the ladder (dead or geo-blocked from the cloud)
   - ABC News Live: 0/10 working - all candidates failed the ladder (dead or geo-blocked from the cloud)
-  - AccuWeather NOW: 0/1 working - all candidates failed the ladder (dead or geo-blocked from the cloud)
+  - AccuWeather NOW: kept as ·未验 for Stanley home test (evening patrol: concurrent us_wall_check timed out x2, but 3x serial fetches returned valid master playlist with variants; treated as cloud-side flake per 2026-10-20 evening lesson)
   - Bloomberg TV: 1/2 working (best 1920x1080 h264)
   - CBS News: 0/2 working - all candidates failed the ladder (dead or geo-blocked from the cloud)
   - CBS Sports HQ: 0/1 working - all candidates failed the ladder (dead or geo-blocked from the cloud)
@@ -150,15 +150,14 @@
   - Newsmax TV: 2 unverified URL(s) included （未验）
   - Newsmax 2: 1 unverified URL(s) included （未验）
   - Real America's Voice: 2 unverified URL(s) included （未验）
-  - AccuWeather NOW: 1 unverified URL(s) included （未验）
   - The Weather Channel: 1 unverified URL(s) included （未验）
   - Fubo Sports Network: 1 unverified URL(s) included （未验）
   - beIN Sports Xtra: 1 unverified URL(s) included （未验）
   - Stadium: 1 unverified URL(s) included （未验）
   - Pac-12 Insider: 1 unverified URL(s) included （未验）
-- Total unverified US entries added to smart.m3u: 23
+- Total unverified US entries added to smart.m3u: 22 (pipeline) + 1 restored manually (AccuWeather NOW) = 23
 - Pending deep test: none this round (no new-host streams).
-- US hard-dead candidates excluded this round: 5 URL(s); 9 additional wall-passing URL(s) left out by the 2-per-channel cap
+- US hard-dead candidates excluded this round: 6 URL(s); 9 additional wall-passing URL(s) left out by the 2-per-channel cap
 
 ### Documentary channels （纪录频道 - new group)
 - Category rule: CCTV-9 and CCTV世界地理 moved out of 央视； all 纪实/纪录/地理 channels classify here. iptv-org documentary category fetched 268 entries -> 3 China-related candidates; aggregator doc hunt -> 7 candidates
@@ -207,20 +206,19 @@
 
 ## Round 1.5 correction
 - Round 1 falsely killed a class of streams: HLS segments disguised as .jpg/.php (rejected by ffprobe's default extension check) and CDNs that cut ffprobe's TLS connection. Retest used `-extension_picky 0` + a browser User-Agent, plus a segment-file fallback (curl-fetch playlist, download first segment, ffprobe locally).
-- Streams rescued by the correction retest: 69 (of which 4 verified via segment_fallback)
+- Streams rescued by the correction retest: 63 (of which 3 verified via segment_fallback)
 - 翡翠台 4K finding: verified 3840x2160 hevc 50.0fps via direct - genuine 4K, included in 4k.m3u.
 
 ## Subtitle tiebreak （字幕优先）
 - Rule (Stanley, 2026-10-20): "有字幕的优先做 primary, 如果画质一样的话" - within a channel, sources sort by (resolution tier, has_subtitles, total score): at equal picture quality the subtitled stream becomes the primary. Config: subtitle_tiebreak=on.
 - Detection: has_subtitles per stream from the final master playlist (EXT-X-MEDIA TYPE=SUBTITLES / CLOSED-CAPTIONS, or CLOSED-CAPTIONS attribute != NONE on EXT-X-STREAM-INF; redirects followed) and from ffprobe subtitle streams; stored in the probe cache. Burned-in subtitles cannot be detected this way. Tri-state: yes / no / unknown (media-playlist URLs and failed manifest fetches stay unknown).
-- Working streams classified: 16 with subtitles, 47 without, 298 unknown (of 361 working).
+- Working streams classified: 16 with subtitles, 48 without, 291 unknown (of 355 working).
 - Channels whose PRIMARY changed because of the subtitle tiebreak (same tier, new primary has subtitles, old did not): 0
-- Channels whose primary changed due to the resolution-tier-first key (not the subtitle tiebreak): 4 (河北卫视, 广东体育, 翡翠台, 水浒传)
-- Channels whose top-3 membership changed under the new key: 2 (广东珠江, 广东体育)
+- Channels whose primary changed due to the resolution-tier-first key (not the subtitle tiebreak): 3 (河北卫视, 翡翠台, 水浒传)
 
 ## Priority channels (working / tested streams)
-- CCTV: 73/165 streams working
-- Guangdong: 24/44 streams working
+- CCTV: 69/165 streams working
+- Guangdong: 21/44 streams working
 - Shandong: 4/17 streams working
 - Hunan: 3/10 streams working
 - Hong Kong & Macau / Taiwan: 41/106 streams working
