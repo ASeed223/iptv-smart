@@ -7,6 +7,10 @@ http://103.172.187.30:12000/stream/mytv/null-1/master.m3u8
 http://r.jdshipin.com/GeWKr
 #EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/明珠台.png" group-title="港澳频道",明珠台·1080p
 http://r.jdshipin.com/ZQ4kN
+#EXTINF:-1 tvg-id="无线新闻台" tvg-name="无线新闻" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/无线新闻.png" group-title="港澳频道",无线新闻·1080p
+http://r.jdshipin.com/CkuBd
+#EXTINF:-1 tvg-id="无线新闻台" tvg-name="无线新闻" tvg-logo="https://live.fanmingming.cn/tv/无线新闻台.png" group-title="港澳频道",无线新闻·备用1·1080p
+http://php.jdshipin.com/TVOD/iptv.php?id=wxxw
 #EXTINF:-1 tvg-id="TVB星河" tvg-name="无线星河" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/TVB星河.png" group-title="港澳频道",无线星河·1080p
 http://r.jdshipin.com/Voac4
 #EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/凤凰中文台.png" group-title="港澳频道",凤凰中文·1080p
@@ -29,6 +33,10 @@ http://r.jdshipin.com/yDoTN
 http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
 #EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/凤凰香港台.png" group-title="港澳频道",凤凰香港·备用2·1080p
 http://r.jdshipin.com/NfC0f
+#EXTINF:-1 tvg-id="ViuTV" tvg-name="Viutv" tvg-logo="https://www.xn--rgv465a.top/tvlogo/Viutv.png" group-title="港澳频道",Viutv·1080p
+https://10.fast.hidns.vip/163189/viu/
+#EXTINF:-1 tvg-id="ViuTV" tvg-name="Viutv" tvg-logo="https://live.fanmingming.cn/tv/VIUTV.png" group-title="港澳频道",Viutv·备用1·1080p
+http://php.jdshipin.com/TVOD/iptv.php?id=viutv
 #EXTINF:-1 tvg-id="黄金翡翠台" tvg-name="黄金翡翠台" tvg-logo="https://i.imgur.com/lPYxsUr.png" group-title="港澳频道",黄金翡翠台·1080p
 http://103.172.187.30:12000/stream/mytv/null-12/master.m3u8
 #EXTINF:-1 tvg-id="TVBS亚洲" tvg-name="TVBS亚洲" tvg-logo="https://www.xn--rgv465a.top/tvlogo/TVBS亚洲.png" group-title="港澳频道",TVBS亚洲·1080p
@@ -284,6 +292,8 @@ http://173.208.234.146/live/vlxyj.m3u8
 #EXTINF:-1 tvg-id="CCTV世界地理" tvg-name="CCTV世界地理" tvg-logo="https://i.imgur.com/V2ncOXi.png" group-title="纪录频道",CCTV世界地理·1080p
 http://38.75.136.137:98/gslb/dsdqpub/sjdl.m3u8?auth=testpub
 #EXTINF:-1 tvg-id="之江纪录" tvg-name="之江纪录" tvg-logo="https://www.xn--rgv465a.top/tvlogo/之江纪录.png" group-title="纪录频道",之江纪录·1080p
+http://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
+#EXTINF:-1 tvg-id="之江纪录" tvg-name="之江纪录" tvg-logo="https://www.xn--rgv465a.top/tvlogo/之江纪录.png" group-title="纪录频道",之江纪录·备用1·1080p
 https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
 #EXTINF:-1 tvg-id="风云音乐" tvg-name="风云音乐" tvg-logo="https://i.imgur.com/IiiRmrf.png" group-title="音乐频道",风云音乐·1080p
 http://38.75.136.137:98/gslb/dsdqpub/fyyy.m3u8?auth=testpub
