@@ -15,12 +15,12 @@ http://php.jdshipin.com/TVOD/iptv.php?id=wxxw
 http://r.jdshipin.com/sXuuD
 #EXTINF:-1 tvg-id="TVB星河" tvg-name="无线星河" tvg-logo="https://live.fanmingming.cn/tv/TVB星河.png" group-title="港澳频道",无线星河·备用1·720p
 http://php.jdshipin.com/TVOD/iptv.php?id=xinghe
+#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/凤凰中文台.png" group-title="港澳频道",凤凰中文·1080p
+http://r.jdshipin.com/cCCzW
+#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://www.xn--rgv465a.top/tvlogo/凤凰中文.png" group-title="港澳频道",凤凰中文·备用1·1080p
+http://31.43.191.125:8080/restream/restream/34629
 #EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰卫视" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/凤凰中文台.png" group-title="港澳频道",凤凰卫视·1080p
 http://r.jdshipin.com/cCCzW
-#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰卫视" tvg-logo="https://live.fanmingming.cn/tv/凤凰卫视频道.png" group-title="港澳频道",凤凰卫视·备用1·1080p
-http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
-#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://www.xn--rgv465a.top/tvlogo/凤凰中文.png" group-title="港澳频道",凤凰中文·1080p
-http://31.43.191.125:8080/restream/restream/34629
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://live.fanmingming.cn/tv/凤凰资讯频道.png" group-title="港澳频道",凤凰资讯·1080p
 http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/凤凰资讯台.png" group-title="港澳频道",凤凰资讯·备用1·1080p
@@ -289,8 +289,6 @@ http://107.150.60.122/live/gxxw.m3u8
 http://192.151.150.154/live/gxxw.m3u8
 #EXTINF:-1 tvg-id="康巴卫视" tvg-name="康巴卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/康巴卫视.png" group-title="地方卫视",康巴卫视·1080p
 http://110.185.237.164:8888/hls/30/index.m3u8
-#EXTINF:-1 tvg-id="旺苍新闻综合" tvg-name="旺苍新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/旺苍新闻综合.png" group-title="地方卫视",旺苍新闻综合·1080p
-http://live.spccmc.com:90/live/spxwzh.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
 #EXTINF:-1 tvg-id="欢笑剧场" tvg-name="欢笑剧场" tvg-logo="https://www.xn--rgv465a.top/tvlogo/欢笑剧场.png" group-title="地方卫视",欢笑剧场·1080p
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hxjchd
 #EXTINF:-1 tvg-id="欢笑剧场" tvg-name="欢笑剧场" tvg-logo="https://www.xn--rgv465a.top/tvlogo/欢笑剧场.png" group-title="地方卫视",欢笑剧场·备用1·1080p
@@ -325,8 +323,6 @@ http://63.141.230.178:82/gslb/zbdq5.m3u8?id=lnwshd
 https://jwcdnqx.hebyun.com.cn/live/hdgg/1500k/tzwj_video.m3u8
 #EXTINF:-1 tvg-id="邯郸新闻综合" tvg-name="邯郸新闻" tvg-logo="https://www.xn--rgv465a.top/tvlogo/邯郸新闻.png" group-title="地方卫视",邯郸新闻·1080p
 https://jwcdnqx.hebyun.com.cn/live/hdxwzh/1500k/tzwj_video.m3u8
-#EXTINF:-1 tvg-id="邯郸科技教育" tvg-name="邯郸科技教育" tvg-logo="https://live.fanmingming.cn/tv/邯郸科技教育.png" group-title="地方卫视",邯郸科技教育·1080p
-https://jwcdnqx.hebyun.com.cn/live/hdkj/1500k/tzwj_video.m3u8
 #EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/重庆卫视.png" group-title="地方卫视",重庆卫视·1080p
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cqwshd
 #EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/重庆卫视.png" group-title="地方卫视",重庆卫视·备用1·1080p
@@ -351,6 +347,8 @@ https://jwcdnqx.hebyun.com.cn/live/xlzh/1500k/tzwj_video.m3u8
 https://liveout.xntv.tv/a65jur/96iln2.m3u8
 #EXTINF:-1 tvg-id="安多卫视" tvg-name="安多卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/安多卫视.png" group-title="地方卫视",安多卫视·备用1·1080p
 http://play.kankanlive.com/live/1711956137852982.m3u8
+#EXTINF:-1 tvg-id="旺苍新闻综合" tvg-name="旺苍新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/旺苍新闻综合.png" group-title="地方卫视",旺苍新闻综合·1080p
+http://live.spccmc.com:90/live/spxwzh.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
 #EXTINF:-1 tvg-id="松潘新闻综合" tvg-name="松潘新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/松潘新闻综合.png" group-title="地方卫视",松潘新闻综合·1080p
 http://live.spccmc.com:90/live/spxwzh.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
 #EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/江西卫视.png" group-title="地方卫视",江西卫视·1080p
@@ -383,6 +381,8 @@ http://stream.jmtv.com.cn/xwzh/sd/live.m3u8
 https://liveout.xntv.tv/a65jur/96iln2.m3u8?zqinghd
 #EXTINF:-1 tvg-id="西藏卫视" tvg-name="西藏卫视" tvg-logo="https://i.imgur.com/NtvfnVV.png" group-title="地方卫视",西藏卫视·1080p
 http://php.jdshipin.com:8880/xztv.php?id=zy
+#EXTINF:-1 tvg-id="邯郸科技教育" tvg-name="邯郸科技教育" tvg-logo="https://live.fanmingming.cn/tv/邯郸科技教育.png" group-title="地方卫视",邯郸科技教育·1080p
+https://jwcdnqx.hebyun.com.cn/live/hdkj/1500k/tzwj_video.m3u8
 #EXTINF:-1 tvg-id="邯郸科教" tvg-name="邯郸科教" tvg-logo="https://www.xn--rgv465a.top/tvlogo/邯郸科教.png" group-title="地方卫视",邯郸科教·1080p
 https://jwcdnqx.hebyun.com.cn/live/hdkj/1500k/tzwj_video.m3u8
 #EXTINF:-1 tvg-id="青川新闻综合" tvg-name="青川综合" tvg-logo="https://live.fanmingming.cn/tv/青川综合.png" group-title="地方卫视",青川综合·1080p
@@ -457,6 +457,8 @@ https://ls.qingting.fm/live/5022100/64k.m3u8
 https://ls.qingting.fm/live/20198/64k.m3u8
 #EXTINF:-1 tvg-id="武汉新闻综合" tvg-name="武汉新闻" tvg-logo="https://www.xn--rgv465a.top/tvlogo/武汉新闻.png" group-title="地方卫视",武汉新闻·标清
 https://ls.qingting.fm/live/20198/64k.m3u8
+#EXTINF:-1 tvg-id="武汉新闻综合" tvg-name="武汉新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/武汉新闻综合.png" group-title="地方卫视",武汉新闻综合·标清
+https://ls.qingting.fm/live/20198/64k.m3u8
 #EXTINF:-1 tvg-id="黑龙江少儿" tvg-name="黑龙江少儿" tvg-logo="https://www.xn--rgv465a.top/tvlogo/黑龙江少儿.png" group-title="地方卫视",黑龙江少儿·标清
 https://ls.qingting.fm/live/4972/64k.m3u8
 #EXTINF:-1 tvg-id="龙视新闻" tvg-name="黑龙江新闻" tvg-logo="https://www.xn--rgv465a.top/tvlogo/黑龙江新闻.png" group-title="地方卫视",黑龙江新闻·标清
@@ -466,9 +468,9 @@ http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
 #EXTINF:-1 tvg-id="纬来体育台" tvg-name="纬来体育" tvg-logo="https://www.xn--rgv465a.top/tvlogo/纬来体育.png" group-title="台湾频道",纬来体育·720p
 https://epg.pw/stream/4f18dfe0593db5c686eb64ae8edaf2a9202d4d46bdc9bbde2cee27708e12ea01.m3u8
 #EXTINF:-1 tvg-id="纬来体育台" tvg-name="纬来体育" tvg-logo="https://www.xn--rgv465a.top/tvlogo/纬来体育.png" group-title="台湾频道",纬来体育·备用1·720p
-https://epg.pw/stream/8855a9936e37e608a0ec8a014cce1673dee9c5d68d560da376cc92e5edef2b25.m3u8
+https://epg.pw/stream/4f18dfe0593db5c686eb64ae8edaf2a9202d4d46bdc9bbde2cee27708e12ea01.m3u8
 #EXTINF:-1 tvg-id="纬来体育台" tvg-name="纬来体育" tvg-logo="https://www.xn--rgv465a.top/tvlogo/纬来体育.png" group-title="台湾频道",纬来体育·备用2·720p
-https://epg.pw/stream/ab6df63b64d0cc44a1f4f029ed847a26fa54a7aebd455578fb05a63f02c22f4b.m3u8
+https://epg.pw/stream/8855a9936e37e608a0ec8a014cce1673dee9c5d68d560da376cc92e5edef2b25.m3u8
 #EXTINF:-1 tvg-id="新唐人亚太台" tvg-name="新唐人亚太台" tvg-logo="https://i.imgur.com/iyFXcDy.png" group-title="台湾频道",新唐人亚太台·标清
 https://live.ntdtv.com/aplive200/playlist.m3u8
 #EXTINF:-1 tvg-id="三立新闻" tvg-name="三立新闻" tvg-logo="https://www.xn--rgv465a.top/tvlogo/三立新闻.png" group-title="台湾频道",三立新闻·720p
@@ -543,50 +545,38 @@ https://live.ottiptv.cc/huya/11601966
 https://live.ottiptv.cc/huya/11352879
 #EXTINF:-1 tvg-id="AMC音乐" tvg-name="AMC音乐" tvg-logo="https://tb.zbds.top/logo/AMC音乐.png" group-title="音乐频道",AMC音乐·1080p
 https://AMChls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="CCTV-15" tvg-name="CCTV-15" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-15.png" group-title="音乐频道",CCTV-15·720p
-http://74.91.26.218:82/live/cctv15hd.m3u8
-#EXTINF:-1 tvg-id="CCTV-15" tvg-name="CCTV-15" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-15.png" group-title="音乐频道",CCTV-15·备用1·720p
+#EXTINF:-1 tvg-id="CCTV-15" tvg-name="CCTV-15" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-15.png" group-title="音乐频道",CCTV-15·1080p
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv15hd
-#EXTINF:-1 tvg-id="CCTV-15" tvg-name="CCTV-15" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-15.png" group-title="音乐频道",CCTV-15·备用2·720p
+#EXTINF:-1 tvg-id="CCTV-15" tvg-name="CCTV-15" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-15.png" group-title="音乐频道",CCTV-15·备用1·720p
 http://204.12.221.218:8181/3m1080p/cctv15.m3u8
+#EXTINF:-1 tvg-id="CCTV-15" tvg-name="CCTV-15" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-15.png" group-title="音乐频道",CCTV-15·备用2·720p
+http://74.91.26.218:82/live/cctv15hd.m3u8
 #EXTINF:-1 tvg-id="风云音乐" tvg-name="风云音乐" tvg-logo="https://i.imgur.com/IiiRmrf.png" group-title="音乐频道",风云音乐·720p
 http://38.75.136.137:98/gslb/dsdqpub/fyyy.m3u8?auth=testpub
 #EXTINF:-1 tvg-id="风云音乐" tvg-name="风云音乐" tvg-logo="https://www.xn--rgv465a.top/tvlogo/风云音乐.png" group-title="音乐频道",风云音乐·备用1·720p
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=fyyy
 #EXTINF:-1 tvg-id="音乐欣赏" tvg-name="音乐欣赏" tvg-logo="https://tb.zbds.top/logo/音乐欣赏.png" group-title="音乐频道",音乐欣赏·720p
 http://61.221.215.25:8800/hls/49/index.m3u8
-#EXTINF:-1 tvg-id="中国之声" tvg-name="中国之声" tvg-logo="" group-title="电台",中国之声·64k
-https://lhttp.qtfm.cn/live/15318317/64k.mp3
-#EXTINF:-1 tvg-id="中国之声" tvg-name="中国之声" tvg-logo="" group-title="电台",中国之声·备用1·电台音频
-https://piccpndali.v.myalicdn.com/audio/cctv2_2.m3u8?
-#EXTINF:-1 tvg-id="经济之声" tvg-name="经济之声" tvg-logo="" group-title="电台",经济之声·电台音频
-http://ngcdn002.cnr.cn/live/jjzs/index.m3u8
-#EXTINF:-1 tvg-id="经济之声" tvg-name="经济之声" tvg-logo="" group-title="电台",经济之声·备用1·电台音频
-https://ngcdn002.cnr.cn/live/jjzs/index.m3u8
-#EXTINF:-1 tvg-id="经济之声" tvg-name="经济之声" tvg-logo="https://ytmedia.radio.cn/CCYT/202302/09/16/Ugh1gKpGMpZRjhaxOz3lk4xS2023020916974.png" group-title="电台",经济之声·备用2·电台音频
-https://satellitepull.cnr.cn/live/wxjjzs/playlist.m3u8?wsSession=5849bb6c90cf7fc1a7e3eae9-174908108209742&wsIPSercert=f7b6cfa8467acd0836b62cf14aa786d3
-#EXTINF:-1 tvg-id="音乐之声" tvg-name="音乐之声" tvg-logo="" group-title="电台",音乐之声·128k
-http://antiserver.kuwo.cn/anti.s?rid=MUSIC_190038250&response=res&format=mp3|aac&type=convert_url&br=128kmp3&agent=iPhone&callback=getlink&jpcallback=getlink.mp3
-#EXTINF:-1 tvg-id="音乐之声" tvg-name="音乐之声" tvg-logo="https://cnvod.cnr.cn/audio2017/ondemand/img/1100/20191224/1577155745280.png" group-title="电台",音乐之声·备用1·电台音频
-https://ngcdn001.cnr.cn/live/yyzs/index.m3u8
-#EXTINF:-1 tvg-id="音乐之声" tvg-name="音乐之声" tvg-logo="https://ytmedia.radio.cn/CCYT/202302/09/17/j5t4Bt3drpLhkZnDREc2023020917793.png" group-title="电台",音乐之声·备用2·电台音频
-https://satellitepull.cnr.cn/live/wxyyzs/playlist.m3u8?wsSession=28e11e3debee46427a9d53dc-174908117055114&wsIPSercert=f7b6cfa8467acd0836b62cf14aa786d3
-#EXTINF:-1 tvg-id="经典音乐广播" tvg-name="经典音乐广播" tvg-logo="https://ytmedia.radio.cn/CCYT/202302/09/17/HRdlznt8YcKTRJdZsE8SXJRsFzZaVJlJJ2023020917172.png" group-title="电台",经典音乐广播·电台音频
-http://satellitepull.cnr.cn/live/wxdszs/playlist.m3u8?wsSession=d8a4b41c6557ba30cfeebcdb-174709298057895&wsIPSercert=29f90b67755e3a4646651f7aa8eb5fd6
-#EXTINF:-1 tvg-id="环球资讯广播" tvg-name="环球资讯广播" tvg-logo="https://ytweb.radio.cn/favicon.ico" group-title="电台",环球资讯广播·电台音频
-http://sk.cri.cn/905.m3u8
-#EXTINF:-1 tvg-id="环球资讯广播" tvg-name="环球资讯广播" tvg-logo="https://newsradio.cri.cn/favicon.ico" group-title="电台",环球资讯广播·备用1·电台音频
-https://sk.cri.cn/905.m3u8
+#EXTINF:-1 tvg-id="星岛中文电台（国语）" tvg-name="星岛中文电台（国语）" tvg-logo="" group-title="电台",星岛中文电台（国语）·64k
+http://nap.casthost.net:8759/;?icy=http
+#EXTINF:-1 tvg-id="星岛中文电台（粤语）" tvg-name="星岛中文电台（粤语）" tvg-logo="" group-title="电台",星岛中文电台（粤语）·64k
+http://nap.casthost.net:8765/;?icy=http
+#EXTINF:-1 tvg-id="美国中文电台（旧金山）" tvg-name="美国中文电台（旧金山）" tvg-logo="" group-title="电台",美国中文电台（旧金山）·48k
+http://radiokest.serverroom.us:6670/;?type=http&nocache=3295
+#EXTINF:-1 tvg-id="旧金山湾区中文电台KVTO" tvg-name="旧金山湾区中文电台KVTO" tvg-logo="https://kvto.net/assets/img/basic/AM1400logo.png" group-title="电台",旧金山湾区中文电台KVTO·64k
+https://us2.maindigitalstream.com/ssl/KVTO
+#EXTINF:-1 tvg-id="KQED公共电台" tvg-name="KQED公共电台" tvg-logo="https://www.kqed.org/favicon.ico" group-title="电台",KQED公共电台·32k
+http://streams.kqed.org/
+#EXTINF:-1 tvg-id="KQED公共电台" tvg-name="KQED公共电台" tvg-logo="" group-title="电台",KQED公共电台·备用1·32k
+http://streams.kqed.org/kqedradio.m3u
+#EXTINF:-1 tvg-id="KQED公共电台" tvg-name="KQED公共电台" tvg-logo="https://asset.brandfetch.io/idQPhN-lSw/idojwfAi5K.png" group-title="电台",KQED公共电台·备用2·128k
+https://hls.kqed.org/hls/kqed_app/playlist.m3u8
+#EXTINF:-1 tvg-id="KALW电台" tvg-name="KALW电台" tvg-logo="https://npr.brightspotcdn.com/dims4/default/1034b93/2147483647/strip/true/crop/388x68+0+0/resize/534x94!/format/webp/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fed%2F6c%2F87fcc6944d57970dccc7c01b4e80%2Fkalw-logo-pink-copy.png" group-title="电台",KALW电台·128k
+https://kalw-live.streamguys1.com/kalw
 #EXTINF:-1 tvg-id="珠江经济台" tvg-name="珠江经济台" tvg-logo="https://m.gdtv.cn/statics/images/logo.png" group-title="电台",珠江经济台·64k
 https://lhttp.qtfm.cn/live/1259/64k.mp3
 #EXTINF:-1 tvg-id="广东音乐之声" tvg-name="广东音乐之声" tvg-logo="" group-title="电台",广东音乐之声·64k
 https://lhttp.qtfm.cn/live/1260/64k.mp3
-#EXTINF:-1 tvg-id="北京音乐广播" tvg-name="北京音乐广播" tvg-logo="https://pic.qtfm.cn/2017/0424/20170424025444.jpeg" group-title="电台",北京音乐广播·64k
-https://lhttp.qtfm.cn/live/332/64k.mp3
-#EXTINF:-1 tvg-id="上海动感101" tvg-name="上海动感101" tvg-logo="http://www.fm101.cn/template/conch/asset/img/ico.png" group-title="电台",上海动感101·64k
-https://lhttp.qingting.fm/live/274/64k.mp3
-#EXTINF:-1 tvg-id="上海动感101" tvg-name="上海动感101" tvg-logo="http://pic.qingting.fm/2014/0909/20140909123511693.jpg" group-title="电台",上海动感101·备用1·64k
-https://lhttp-hw.qtfm.cn/live/274/64k.mp3
 #EXTINF:-1 tvg-id="香港电台第一台" tvg-name="香港电台第一台" tvg-logo="" group-title="电台",香港电台第一台·电台音频
 https://rthkradio1-live.akamaized.net/hls/live/2035313/radio1/master.m3u8
 #EXTINF:-1 tvg-id="香港电台第一台" tvg-name="香港电台第一台" tvg-logo="https://cdn.webrad.io/images/logos/radios-hk/rthk-1.png" group-title="电台",香港电台第一台·备用1·电台音频
@@ -613,28 +603,40 @@ https://1716664847.rsc.cdn77.org/1716664847/tracks-a1/mono.ts.m3u8
 https://881903.fishtv.dpdns.org/proxy/903
 #EXTINF:-1 tvg-id="商业电台" tvg-name="商业电台" tvg-logo="https://foxxradio.com/upload/hk/1620700276.jpg.webp" group-title="电台",商业电台·备用1·32k
 https://881903.fishtv.dpdns.org/proxy/881
+#EXTINF:-1 tvg-id="中国之声" tvg-name="中国之声" tvg-logo="" group-title="电台",中国之声·64k
+https://lhttp.qtfm.cn/live/15318317/64k.mp3
+#EXTINF:-1 tvg-id="中国之声" tvg-name="中国之声" tvg-logo="" group-title="电台",中国之声·备用1·电台音频
+https://piccpndali.v.myalicdn.com/audio/cctv2_2.m3u8?
+#EXTINF:-1 tvg-id="经济之声" tvg-name="经济之声" tvg-logo="" group-title="电台",经济之声·电台音频
+http://ngcdn002.cnr.cn/live/jjzs/index.m3u8
+#EXTINF:-1 tvg-id="经济之声" tvg-name="经济之声" tvg-logo="" group-title="电台",经济之声·备用1·电台音频
+https://ngcdn002.cnr.cn/live/jjzs/index.m3u8
+#EXTINF:-1 tvg-id="经济之声" tvg-name="经济之声" tvg-logo="https://ytmedia.radio.cn/CCYT/202302/09/16/Ugh1gKpGMpZRjhaxOz3lk4xS2023020916974.png" group-title="电台",经济之声·备用2·电台音频
+https://satellitepull.cnr.cn/live/wxjjzs/playlist.m3u8?wsSession=5849bb6c90cf7fc1a7e3eae9-174908108209742&wsIPSercert=f7b6cfa8467acd0836b62cf14aa786d3
+#EXTINF:-1 tvg-id="音乐之声" tvg-name="音乐之声" tvg-logo="" group-title="电台",音乐之声·128k
+http://antiserver.kuwo.cn/anti.s?rid=MUSIC_190038250&response=res&format=mp3|aac&type=convert_url&br=128kmp3&agent=iPhone&callback=getlink&jpcallback=getlink.mp3
+#EXTINF:-1 tvg-id="音乐之声" tvg-name="音乐之声" tvg-logo="https://cnvod.cnr.cn/audio2017/ondemand/img/1100/20191224/1577155745280.png" group-title="电台",音乐之声·备用1·电台音频
+https://ngcdn001.cnr.cn/live/yyzs/index.m3u8
+#EXTINF:-1 tvg-id="音乐之声" tvg-name="音乐之声" tvg-logo="https://ytmedia.radio.cn/CCYT/202302/09/17/j5t4Bt3drpLhkZnDREc2023020917793.png" group-title="电台",音乐之声·备用2·电台音频
+https://satellitepull.cnr.cn/live/wxyyzs/playlist.m3u8?wsSession=28e11e3debee46427a9d53dc-174908117055114&wsIPSercert=f7b6cfa8467acd0836b62cf14aa786d3
+#EXTINF:-1 tvg-id="经典音乐广播" tvg-name="经典音乐广播" tvg-logo="https://ytmedia.radio.cn/CCYT/202302/09/17/HRdlznt8YcKTRJdZsE8SXJRsFzZaVJlJJ2023020917172.png" group-title="电台",经典音乐广播·电台音频
+http://satellitepull.cnr.cn/live/wxdszs/playlist.m3u8?wsSession=d8a4b41c6557ba30cfeebcdb-174709298057895&wsIPSercert=29f90b67755e3a4646651f7aa8eb5fd6
+#EXTINF:-1 tvg-id="环球资讯广播" tvg-name="环球资讯广播" tvg-logo="https://ytweb.radio.cn/favicon.ico" group-title="电台",环球资讯广播·电台音频
+http://sk.cri.cn/905.m3u8
+#EXTINF:-1 tvg-id="环球资讯广播" tvg-name="环球资讯广播" tvg-logo="https://newsradio.cri.cn/favicon.ico" group-title="电台",环球资讯广播·备用1·电台音频
+https://sk.cri.cn/905.m3u8
+#EXTINF:-1 tvg-id="北京音乐广播" tvg-name="北京音乐广播" tvg-logo="https://pic.qtfm.cn/2017/0424/20170424025444.jpeg" group-title="电台",北京音乐广播·64k
+https://lhttp.qtfm.cn/live/332/64k.mp3
+#EXTINF:-1 tvg-id="上海动感101" tvg-name="上海动感101" tvg-logo="http://www.fm101.cn/template/conch/asset/img/ico.png" group-title="电台",上海动感101·64k
+https://lhttp.qingting.fm/live/274/64k.mp3
+#EXTINF:-1 tvg-id="上海动感101" tvg-name="上海动感101" tvg-logo="http://pic.qingting.fm/2014/0909/20140909123511693.jpg" group-title="电台",上海动感101·备用1·64k
+https://lhttp-hw.qtfm.cn/live/274/64k.mp3
 #EXTINF:-1 tvg-id="华语金曲500首" tvg-name="华语金曲500首" tvg-logo="" group-title="电台",华语金曲500首·电台音频
 http://ls.qingting.fm/live/3412131.m3u8?bitrate=64
-#EXTINF:-1 tvg-id="星岛中文电台（国语）" tvg-name="星岛中文电台（国语）" tvg-logo="" group-title="电台",星岛中文电台（国语）·64k
-http://nap.casthost.net:8759/;?icy=http
-#EXTINF:-1 tvg-id="星岛中文电台（粤语）" tvg-name="星岛中文电台（粤语）" tvg-logo="" group-title="电台",星岛中文电台（粤语）·64k
-http://nap.casthost.net:8765/;?icy=http
-#EXTINF:-1 tvg-id="美国中文电台（旧金山）" tvg-name="美国中文电台（旧金山）" tvg-logo="" group-title="电台",美国中文电台（旧金山）·48k
-http://radiokest.serverroom.us:6670/;?type=http&nocache=3295
 #EXTINF:-1 tvg-id="美国中文电台（西雅图）" tvg-name="美国中文电台（西雅图）" tvg-logo="" group-title="电台",美国中文电台（西雅图）·128k
 http://kxparadio.serverroom.us:5852/stream.mp3
 #EXTINF:-1 tvg-id="洛杉矶中文广播电台" tvg-name="洛杉矶中文广播电台" tvg-logo="https://www.am1430.net/wp-content/uploads/2014/08/slogo.png" group-title="电台",洛杉矶中文广播电台·128k
 http://video1.getstreamhosting.com:8304/stream
-#EXTINF:-1 tvg-id="旧金山湾区中文电台KVTO" tvg-name="旧金山湾区中文电台KVTO" tvg-logo="https://kvto.net/assets/img/basic/AM1400logo.png" group-title="电台",旧金山湾区中文电台KVTO·64k
-https://us2.maindigitalstream.com/ssl/KVTO
-#EXTINF:-1 tvg-id="KQED公共电台" tvg-name="KQED公共电台" tvg-logo="https://www.kqed.org/favicon.ico" group-title="电台",KQED公共电台·32k
-http://streams.kqed.org/
-#EXTINF:-1 tvg-id="KQED公共电台" tvg-name="KQED公共电台" tvg-logo="" group-title="电台",KQED公共电台·备用1·32k
-http://streams.kqed.org/kqedradio.m3u
-#EXTINF:-1 tvg-id="KQED公共电台" tvg-name="KQED公共电台" tvg-logo="https://asset.brandfetch.io/idQPhN-lSw/idojwfAi5K.png" group-title="电台",KQED公共电台·备用2·128k
-https://hls.kqed.org/hls/kqed_app/playlist.m3u8
-#EXTINF:-1 tvg-id="KALW电台" tvg-name="KALW电台" tvg-logo="https://npr.brightspotcdn.com/dims4/default/1034b93/2147483647/strip/true/crop/388x68+0+0/resize/534x94!/format/webp/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fed%2F6c%2F87fcc6944d57970dccc7c01b4e80%2Fkalw-logo-pink-copy.png" group-title="电台",KALW电台·128k
-https://kalw-live.streamguys1.com/kalw
 #EXTINF:-1 tvg-id="美国之音" tvg-name="美国之音" tvg-logo="https://i.imgur.com/XCTZkoq.png" group-title="美国频道",美国之音·1080p
 https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8
 #EXTINF:-1 tvg-id="Bloomberg TV" tvg-name="Bloomberg TV" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="美国频道",Bloomberg TV·1080p
@@ -647,7 +649,9 @@ https://abcnews-streams.akamaized.net/hls/live/2023561/abcnewshudson2/master.m3u
 https://d1si3n1st4nkgb.cloudfront.net/10502/88896001/hls/master.m3u8?ads.xumo_channelId=88896001
 #EXTINF:-1 tvg-id="NBC News NOW" tvg-name="NBC News NOW" tvg-logo="https://i.imgur.com/v48mMRT.png" group-title="美国频道",NBC News NOW·备用1·未验
 https://d1bl6tskrpq9ze.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=99984003
-#EXTINF:-1 tvg-id="CBS News" tvg-name="CBS News" tvg-logo="https://i.imgur.com/nki2HDQ.png" group-title="美国频道",CBS News·未验
+#EXTINF:-1 tvg-id="CBS News" tvg-name="CBS News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/960px-CBS_News_247_logo.svg.png" group-title="美国频道",CBS News·未验
+https://jmp2.uk/plu-6350fdd266e9ea0007bedec5.m3u8
+#EXTINF:-1 tvg-id="CBS News" tvg-name="CBS News" tvg-logo="https://i.imgur.com/nki2HDQ.png" group-title="美国频道",CBS News·备用1·未验
 https://cbsnews.akamaized.net/hls/live/2020607/cbsnlineup_8/master.m3u8
 #EXTINF:-1 tvg-id="CBS Sports HQ" tvg-name="CBS Sports HQ" tvg-logo="https://i.imgur.com/q8BENJg.png" group-title="美国频道",CBS Sports HQ·未验
 https://jmp2.uk/plu-5e9f2c05172a0f0007db4786.m3u8
@@ -657,7 +661,9 @@ https://247wlive.foxweather.com/stream/index.m3u8
 https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Scripps News" tvg-name="Scripps News" tvg-logo="https://i.imgur.com/W0Jvi5o.png" group-title="美国频道",Scripps News·未验
 https://aegis-cloudfront-1.tubi.video/7e1c26b7-7975-4240-9a4f-480eaa8f3ea4/playlist.m3u8
-#EXTINF:-1 tvg-id="Court TV" tvg-name="Court TV" tvg-logo="https://graph.facebook.com/courttv/picture?width=200&height=200" group-title="美国频道",Court TV·未验
+#EXTINF:-1 tvg-id="Court TV" tvg-name="Court TV" tvg-logo="https://i.imgur.com/jOKA735.png" group-title="美国频道",Court TV·未验
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-courttv-tablo/playlist.m3u8
+#EXTINF:-1 tvg-id="Court TV" tvg-name="Court TV" tvg-logo="https://graph.facebook.com/courttv/picture?width=200&height=200" group-title="美国频道",Court TV·备用1·未验
 https://content.uplynk.com/channel/6c0bd0f94b1d4526a98676e9699a10ef.m3u8
 #EXTINF:-1 tvg-id="PBS" tvg-name="PBS" tvg-logo="https://i.imgur.com/8c8isLj.png" group-title="美国频道",PBS·未验
 https://pbs.lls.cdn.pbs.org/est/index.m3u8
@@ -675,6 +681,8 @@ https://content.uplynk.com/channel/26bd482ffe364a1282bc3df28bd3c21f.m3u8
 https://stream.weathernationtv.com/RAVStirr_poekxujeisurekugzezyg/O1/playlistSCTE35.m3u8
 #EXTINF:-1 tvg-id="AccuWeather NOW" tvg-name="AccuWeather NOW" tvg-logo="https://i.imgur.com/M8wbVYK.png" group-title="美国频道",AccuWeather NOW·未验
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8
+#EXTINF:-1 tvg-id="The Weather Channel" tvg-name="The Weather Channel" tvg-logo="https://i.imgur.com/PIaNjfa.png" group-title="美国频道",The Weather Channel·未验
+https://twcprod-live.twc-tv.com/v1/manifest/b4d4d63a49309cc5140171fb2e92485c31be1e9e/DSP_6228e4760505741a116f1ba2_twcprod-live/6bf09ce5-366b-463c-b67e-c4b799f73c3f/4.m3u8
 #EXTINF:-1 tvg-id="Fubo Sports Network" tvg-name="Fubo Sports Network" tvg-logo="https://i.imgur.com/qFNRJLb.png" group-title="美国频道",Fubo Sports Network·未验
 https://dnf08l6u6uxnz.cloudfront.net/master.m3u8
 #EXTINF:-1 tvg-id="beIN Sports Xtra" tvg-name="beIN Sports Xtra" tvg-logo="https://i.ibb.co/HT49GPmB/XTRA-2.png" group-title="美国频道",beIN Sports Xtra·未验
