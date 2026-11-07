@@ -1015,3 +1015,4 @@ KQED公共电台,KQED公共电台,KQED公共电台,,radio-browser,电台,no,,htt
 KQED公共电台,KQED公共电台,KQED公共电台,,radio-browser,电台,no,,http://streams.kqed.org/,yes,direct,high,0,0,Radio,0.0,,mp3,unknown,12.426,71.0,yes,audio decoded cleanly,yes,,2026-11-05 16:41:25 PST
 KQED公共电台,KQED公共电台,KQED公共电台,,radio-browser,电台,no,,https://hls.kqed.org/hls/kqed_app/playlist.m3u8,yes,segment_fallback,high,0,0,Radio,0.0,,aac,no,35.667,56.0,no,Error opening input files: Connection timed out,yes,,2026-11-05 16:41:25 PST
 KALW电台,KALW电台,KALW电台,,radio-browser,电台,no,,https://kalw-live.streamguys1.com/kalw,yes,direct,high,0,0,Radio,0.0,,aac,unknown,12.682,76.0,yes,audio decoded cleanly,yes,,2026-11-05 16:41:25 PST
+英雄联盟赛事,英雄联盟赛事,英雄联盟赛事,体育频道,bilibili-relay,体育频道,no,,https://live.ottiptv.cc/bilibili/6,yes,direct,verified,1280,720,720p,,h264,aac,unknown,,0.0,,,yes,,2026-11-07 12:30 PST

@@ -14,7 +14,8 @@
 - Working streams >=3840 wide / 4K (all, incl. backups): 3
 
 ## Output files (validated M3U entry counts)
-- smart.m3u: 339 entries (top 3 working per channel)
+- smart.m3u: 340 entries (top 3 working per channel)
+- 临时赛事台：英雄联盟赛事（B站 6 号房官方直播间中继，720p，LPL 解说）已加入体育频道，仅供 11/7 半决赛 IG vs Gen.G，次日主更新会移除。
 - 1080p.m3u: 155 entries
 - 4k.m3u: 3 entries
 - backup.m3u: 37 entries
