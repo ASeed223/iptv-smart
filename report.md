@@ -1,86 +1,77 @@
 # IPTV Smart Playlist - Round 3 Report
 
-- Last update: 2026-11-16 16:43:48 PST (America/Los_Angeles)
+- Last update: 2026-11-20 21:03:33 PST (America/Los_Angeles)
 - Verification scope: **Cloud Verified only - NOT California Verified.** Streams were tested from this cloud environment; playback in California is not guaranteed.
 - Sources: Guovin iptv-api result.m3u (primary) + iptv-org cn/hk/tw (second source) + public aggregator music hunt (see Round 2 section) + Round 3: iptv-org US & documentary, Free-TV, Radio Browser (see Round 3 section)
 
 ## Totals
-- Candidate streams: 1013
-- Working streams: 329
-- Failed streams: 684
-- Unique logical channels after dedup: 417
-- Duplicate entries folded: 596
-- Working streams >=1920x1080 (all, incl. backups): 126
-- Working streams >=3840 wide / 4K (all, incl. backups): 3
+- Candidate streams: 1018
+- Working streams: 297
+- Failed streams: 721
+- Unique logical channels after dedup: 415
+- Duplicate entries folded: 603
+- Working streams >=1920x1080 (all, incl. backups): 149
+- Working streams >=3840 wide / 4K (all, incl. backups): 2
 
 ## Output files (validated M3U entry counts)
-- smart.m3u: 323 entries (top 3 working per channel)
-- 1080p.m3u: 126 entries
-- 4k.m3u: 3 entries
-- backup.m3u: 23 entries
+- smart.m3u: 301 entries (top 3 working per channel)
+- 1080p.m3u: 149 entries
+- 4k.m3u: 2 entries
+- backup.m3u: 25 entries
 
 ## Groups in smart.m3u (pure-Chinese group titles)
 - 港澳频道: 19
-- 央视: 52
-- 广东频道: 19
-- 地方卫视: 130
-- 台湾频道: 3
-- 体育频道: 0
+- 央视: 59
+- 广东频道: 18
+- 地方卫视: 97
+- 台湾频道: 2
+- 体育频道: 1
 - 新闻频道: 0
-- 影视频道: 24
-- 纪录频道: 7
+- 影视频道: 23
+- 纪录频道: 5
 - 少儿频道: 7
-- 音乐频道: 7
+- 音乐频道: 5
 - 电台: 35
-- 美国频道: 20
+- 美国频道: 30
 - 其他: 0
 - 其他 count in smart.m3u: 0
 
 ## Must-have channels (Stanley priority)
-- 翡翠台: VERIFIED via direct (3840x2160 hevc 50.0fps), 4 working source(s)
-- 明珠台: VERIFIED via direct (1920x1080 h264 25.0fps), 1 working source(s)
-- 无线新闻: VERIFIED via direct (1920x1080 h264 25.0fps), 2 working source(s)
-- TVB星河: VERIFIED via direct (1920x1080 h264 50.0fps), 3 working source(s)
+- 翡翠台: VERIFIED via direct (1920x1080 h264 50.0fps), 3 working source(s)
+- 明珠台: VERIFIED via direct (1920x1080 hevc 50.0fps), 2 working source(s)
+- 无线新闻: VERIFIED via direct (1920x1080 hevc 25.0fps), 2 working source(s)
+- TVB星河: VERIFIED via direct (1920x1080 h264 50.0fps), 1 working source(s)
 - 凤凰中文: VERIFIED via direct (1920x1080 h264 50.0fps), 5 working source(s)
 - 凤凰卫视: 本源中与上一频道为同一信号 (tvg-id 相同), 已由其可用源覆盖, 无独立源
 - 凤凰资讯: VERIFIED via direct (1920x1080 h264 50.0fps), 1 working source(s)
-- 凤凰香港: VERIFIED via direct (1920x1080 h264 25.0fps), 3 working source(s)
-- ViuTV: VERIFIED via direct (1920x1080 h264 50.0fps), 1 working source(s)
+- 凤凰香港: VERIFIED via direct (1920x1080 h264 25.0fps), 4 working source(s)
+- ViuTV: VERIFIED via direct (1920x1080 h264 50.0fps), 2 working source(s)
 
 ## Round 2 upgrades
 ### Music channels （音乐频道）
-- Category rule changed: 风云音乐 and CCTV-15 now classify into 音乐频道 (previously swallowed by 央视）. 音乐频道 entries in smart.m3u: 7
-- CCTV-15 verdict: 3/10 sources working after full-ladder retest (best 1280x720 h264 via direct)
+- Category rule changed: 风云音乐 and CCTV-15 now classify into 音乐频道 (previously swallowed by 央视）. 音乐频道 entries in smart.m3u: 5
+- CCTV-15 verdict: 4/10 sources working after full-ladder retest (best 1280x720 h264 via direct)
 - Music hunt source fanmingming: 82 entries scanned, 1 music candidates, 0 new candidate streams added to the pool
-- Music hunt source vbskycn: 433 entries scanned, 4 music candidates, 2 new candidate streams added to the pool
+- Music hunt source vbskycn: 318 entries scanned, 0 music candidates, 0 new candidate streams added to the pool
 - Music hunt source zbefine: 1286 entries scanned, 1 music candidates, 1 new candidate streams added to the pool
 - Music hunt source yang-goodiptv: PENDING - fetch failed (HTTPError: HTTP Error 404: Not Found); its candidates were NOT included.
-- Hunt-verified music channel: AMC音乐 (1920x1080 h264, 1 working source(s))
-- Hunt-verified music channel: CGTN纪录 (1280x720 h264, 1 working source(s))
 - Hunt-verified music channel: 之江纪录 (1920x1080 h264, 1 working source(s))
-- Hunt-verified music channel: 音乐欣赏 (1280x720 h264, 1 working source(s))
 
 ### Second source: iptv-org
 - iptv-org (cn/hk/tw) fetched: 208 streams; 38 skipped as exact-URL duplicates of the Guovin pool; 93 skipped unmapped/ambiguous; 80 candidate streams tested with the full ladder
-- iptv-org verified working: 9; of those, 5 became NEW working backups for existing channels
-- Channels gaining the most iptv-org backups: 文化精品 +1, 高尔夫网球 +1, 广东卫视 +1, 康巴卫视 +1, TVBS亚洲 +1
+- iptv-org verified working: 8; of those, 6 became NEW working backups for existing channels
+- Channels gaining the most iptv-org backups: 2026-10-12 11:25:50 +1, 文化精品 +1, 高尔夫网球 +1, 康巴卫视 +1, 安多卫视 +1, TVBS亚洲 +1
 - NEW channels added (verified working, not present in the Guovin pool):
-  - AMC音乐 [音乐频道] best 1920x1080 (source: hunt:vbskycn)
   - Bloomberg TV [美国频道] best 1920x1080 (source: free-tv+iptv-org-us)
-  - CCTV-8K [央视] best 1280x720 (source: iptv-org)
-  - CCTV世界地理 [纪录频道] best 1280x720 (source: iptv-org)
-  - CGTN纪录 [纪录频道] best 1280x720 (source: hunt:vbskycn+hunt:zbefine)
+  - CCTV-8K [央视] best 1920x1080 (source: iptv-org)
+  - CCTV世界地理 [纪录频道] best 1920x1080 (source: iptv-org)
   - KALW电台 [电台] best 0x0 (source: radio-browser)
   - KQED公共电台 [电台] best 0x0 (source: radio-browser)
-  - NBC News NOW [美国频道] best 1920x1080 (source: free-tv+iptv-org-us)
-  - Real America's Voice [美国频道] best 1280x720 (source: free-tv+iptv-org-us)
   - 上海动感101 [电台] best 0x0 (source: radio-browser)
   - 中国之声 [电台] best 0x0 (source: radio-browser)
   - 北京音乐广播 [电台] best 0x0 (source: radio-browser)
   - 华语金曲500首 [电台] best 0x0 (source: radio-browser)
-  - 客家电视台 [台湾频道] best 1280x720 (source: iptv-org)
   - 广东音乐之声 [电台] best 0x0 (source: radio-browser)
-  - 新唐人亚太台 [台湾频道] best 854x480 (source: iptv-org)
   - 新城电台财经台 [电台] best 0x0 (source: radio-browser)
   - 旧金山湾区中文电台KVTO [电台] best 0x0 (source: radio-browser)
   - 星岛中文电台（国语） [电台] best 0x0 (source: radio-browser)
@@ -93,7 +84,6 @@
   - 经济之声 [电台] best 0x0 (source: radio-browser)
   - 美国中文电台（旧金山） [电台] best 0x0 (source: radio-browser)
   - 音乐之声 [电台] best 0x0 (source: radio-browser)
-  - 音乐欣赏 [音乐频道] best 1280x720 (source: hunt:vbskycn)
   - 香港电台普通话台 [电台] best 0x0 (source: official+radio-browser)
   - 香港电台第一台 [电台] best 0x0 (source: official+radio-browser)
   - 香港电台第二台 [电台] best 0x0 (source: official+radio-browser)
@@ -104,8 +94,8 @@
 
 ## Round 3 expansion
 ### US channels （美国频道）
-- iptv-org US fetched 1498 entries -> 35 curated candidate streams; Free-TV USA group 28 entries -> 8 curated candidates; US-Chinese hunt in Chinese aggregators -> 0 candidates
-- Extra-source US candidates tested with the full ladder: 43 (+0 hunt) -> verified working: 3
+- iptv-org US fetched 1562 entries -> 39 curated candidate streams; Free-TV USA group 28 entries -> 8 curated candidates; US-Chinese hunt in Chinese aggregators -> 0 candidates
+- Extra-source US candidates tested with the full ladder: 47 (+0 hunt) -> verified working: 1
   - 美国之音: 0/1 working - all candidates failed the ladder (dead or geo-blocked from the cloud)
   - ABC News Live: 0/10 working - all candidates failed the ladder (dead or geo-blocked from the cloud)
   - AccuWeather NOW: 0/1 working - all candidates failed the ladder (dead or geo-blocked from the cloud)
@@ -115,11 +105,11 @@
   - Cheddar News: 0/1 working - all candidates failed the ladder (dead or geo-blocked from the cloud)
   - Court TV: 0/2 working - all candidates failed the ladder (dead or geo-blocked from the cloud)
   - FOX Live Now: 0/1 working - all candidates failed the ladder (dead or geo-blocked from the cloud)
-  - Fox Weather: 0/1 working - all candidates failed the ladder (dead or geo-blocked from the cloud)
-  - Fubo Sports Network: 0/1 working - all candidates failed the ladder (dead or geo-blocked from the cloud)
+  - Fox Weather: 0/4 working - all candidates failed the ladder (dead or geo-blocked from the cloud)
+  - Fubo Sports Network: 0/2 working - all candidates failed the ladder (dead or geo-blocked from the cloud)
   - HSN: 0/1 working - all candidates failed the ladder (dead or geo-blocked from the cloud)
   - HSN2: 0/1 working - all candidates failed the ladder (dead or geo-blocked from the cloud)
-  - NBC News NOW: 1/2 working (best 1920x1080 h264)
+  - NBC News NOW: 0/2 working - all candidates failed the ladder (dead or geo-blocked from the cloud)
   - Newsmax 2: 0/1 working - all candidates failed the ladder (dead or geo-blocked from the cloud)
   - Newsmax TV: 0/2 working - all candidates failed the ladder (dead or geo-blocked from the cloud)
   - PBS: 0/1 working - all candidates failed the ladder (dead or geo-blocked from the cloud)
@@ -128,7 +118,7 @@
   - QVC: 0/1 working - all candidates failed the ladder (dead or geo-blocked from the cloud)
   - QVC2: 0/1 working - all candidates failed the ladder (dead or geo-blocked from the cloud)
   - QVC3: 0/1 working - all candidates failed the ladder (dead or geo-blocked from the cloud)
-  - Real America's Voice: 1/3 working (best 1280x720 h264)
+  - Real America's Voice: 0/3 working - all candidates failed the ladder (dead or geo-blocked from the cloud)
   - Scripps News: 0/1 working - all candidates failed the ladder (dead or geo-blocked from the cloud)
   - Stadium: 0/2 working - all candidates failed the ladder (dead or geo-blocked from the cloud)
   - The Weather Channel: 0/1 working - all candidates failed the ladder (dead or geo-blocked from the cloud)
@@ -138,36 +128,41 @@
 - Stanley approved (2026-10-20): curated US channels walled off from this cloud by their CDNs (master playlist loads, variant/segment layer refuses) are included in smart.m3u ONLY, tagged ·未验， for home testing. A channel graduates when Stanley confirms it plays at home (config user_verified_channels -> normal quality tag); it is dropped if it fails at home too. Hard-dead candidates (master playlist itself 404 / DNS / connection refused) stay excluded. Never in 1080p.m3u / 4k.m3u (resolution unknown).
 - Shopping channels excluded per Stanley's preference (2026-10-20, "购物的不要 只要主流的" - mainstream channels only; config us_unverified_exclude): HSN, HSN2, QVC, QVC2, QVC3.
   - ABC News Live: 2 unverified URL(s) included （未验）
+  - NBC News NOW: 2 unverified URL(s) included （未验）
   - CBS News: 1 unverified URL(s) included （未验）
+  - Fox Weather: 1 unverified URL(s) included （未验）
   - FOX Live Now: 1 unverified URL(s) included （未验）
+  - Scripps News: 1 unverified URL(s) included （未验）
   - Court TV: 2 unverified URL(s) included （未验）
   - PBS: 1 unverified URL(s) included （未验）
   - PBS Kids: 1 unverified URL(s) included （未验）
   - Newsmax TV: 2 unverified URL(s) included （未验）
   - Newsmax 2: 1 unverified URL(s) included （未验）
+  - Real America's Voice: 2 unverified URL(s) included （未验）
   - AccuWeather NOW: 1 unverified URL(s) included （未验）
   - The Weather Channel: 1 unverified URL(s) included （未验）
-  - Fubo Sports Network: 1 unverified URL(s) included （未验）
+  - Fubo Sports Network: 2 unverified URL(s) included （未验）
   - beIN Sports Xtra: 1 unverified URL(s) included （未验）
   - Stadium: 1 unverified URL(s) included （未验）
   - Pac-12 Insider: 1 unverified URL(s) included （未验）
-- Total unverified US entries added to smart.m3u: 17
-- Pending deep test: none this round (no new-host streams).
-- US hard-dead candidates excluded this round: 7 URL(s); 7 additional wall-passing URL(s) left out by the 2-per-channel cap
+- Total unverified US entries added to smart.m3u: 24
+- Pending deep test (new hosts, zero-disturbance): 5 stream(s) listed with ·待深测 tag across 5 host(s): 653db23c.wurl.com, 986a99ca.wurl.com, amg00488-foxdigital-amg00488c4-vizio-us-900.playouts.now.amagi.tv, amg00488-foxdigital-fox2sanfranciscoktvu-vizious-cshim.amagi.tv, amg00488-foxdigital-fox35orlandowofl-vizious-i7zzw.amagi.tv
+  (Hosts accumulate in output/pending_domains.txt for batch approval; deep test runs once approved via config pending_approved_hosts.)
+- US hard-dead candidates excluded this round: 4 URL(s); 9 additional wall-passing URL(s) left out by the 2-per-channel cap
 
 ### Documentary channels （纪录频道 - new group)
-- Category rule: CCTV-9 and CCTV世界地理 moved out of 央视； all 纪实/纪录/地理 channels classify here. iptv-org documentary category fetched 250 entries -> 3 China-related candidates; aggregator doc hunt -> 7 candidates
-  - CCTV-9: 3/5 working (best 1920x1080 h264 via direct)
-  - CCTV-9纪录: 0/1 working - failed the full ladder (http://[2409:8087:8:21::18]:6610 End of file)
-  - CCTV世界地理: 1/1 working (best 1280x720 h264 via direct)
-  - CGTN纪录: 1/2 working (best 1280x720 h264 via direct)
+- Category rule: CCTV-9 and CCTV世界地理 moved out of 央视； all 纪实/纪录/地理 channels classify here. iptv-org documentary category fetched 251 entries -> 3 China-related candidates; aggregator doc hunt -> 8 candidates
+  - CCTV-9: 4/5 working (best 1920x1080 h264 via direct)
+  - CCTV-9纪录: 0/1 working - failed the full ladder (http://[2409:8087:8:21::18]:6610 Connection timed out)
+  - CCTV世界地理: 1/1 working (best 1920x1080 h264 via direct)
+  - CGTN纪录: 0/2 working - failed the full ladder (http://39.135.138.58:18890 Connection timed out; https://0472.org Connection timed out)
   - CGTN纪录片: 0/1 working - failed the full ladder (https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.ama)
   - China Travel: 0/1 working - failed the full ladder (timeout >8s)
-  - Discovering China: 0/1 working - failed the full ladder (timeout >8s)
+  - Discovering China: 0/1 working - failed the full ladder (https://fastlive.cctvplus.com Connection timed out)
   - NewTV精品纪录: 0/1 working - failed the full ladder (http://39.135.138.58:18890 Connection timed out)
   - 上海纪实: 0/1 working - failed the full ladder (skipped_this_round (host_down))
   - 上海纪实人文: 0/2 working - failed the full ladder (http://39.135.138.58:18890 Connection timed out)
-  - 之江纪录: 2/2 working (best 1920x1080 h264 via segment_fallback)
+  - 之江纪录: 1/3 working (best 1920x1080 h264 via direct)
   - 纪实人文: 0/1 working - failed the full ladder (http://ottrrs.hl.chinamobile.com Connection timed out)
   - 金鹰纪实: 0/2 working - failed the full ladder (http://iptv.huuc.edu.cn Connection timed out; http://rrs01.hw.gmcc.net:8088 Connection timed out)
 
@@ -187,7 +182,7 @@
   - 香港电台普通话台: 3/3 URLs working (best aac 67kbps)
   - 新城电台知讯台: 0/1 URLs working - DEAD this round (all candidates failed the audio ladder)
   - 新城电台财经台: 1/1 URLs working (best aac 65kbps)
-  - 商业电台: 0/1 URLs working - DEAD this round (all candidates failed the audio ladder)
+  - 商业电台: 0/2 URLs working - DEAD this round (all candidates failed the audio ladder)
   - 华语金曲500首: 1/1 URLs working (best aac ?kbps) (music-loop station)
   - 星岛中文电台（国语）: 1/1 URLs working (best mp3 64kbps)
   - 星岛中文电台（粤语）: 1/1 URLs working (best mp3 64kbps)
@@ -202,51 +197,54 @@
 
 ## Round 1.5 correction
 - Round 1 falsely killed a class of streams: HLS segments disguised as .jpg/.php (rejected by ffprobe's default extension check) and CDNs that cut ffprobe's TLS connection. Retest used `-extension_picky 0` + a browser User-Agent, plus a segment-file fallback (curl-fetch playlist, download first segment, ffprobe locally).
-- Streams rescued by the correction retest: 58 (of which 6 verified via segment_fallback)
-- 翡翠台 4K finding: verified 3840x2160 hevc 50.0fps via direct - genuine 4K, included in 4k.m3u.
+- Streams rescued by the correction retest: 53 (of which 8 verified via segment_fallback)
+- 翡翠台: working streams confirmed (best 1920x1080), but no 4K stream verified this round.
 
 ## Subtitle tiebreak （字幕优先）
 - Rule (Stanley, 2026-10-20): "有字幕的优先做 primary, 如果画质一样的话" - within a channel, sources sort by (resolution tier, has_subtitles, total score): at equal picture quality the subtitled stream becomes the primary. Config: subtitle_tiebreak=on.
 - Detection: has_subtitles per stream from the final master playlist (EXT-X-MEDIA TYPE=SUBTITLES / CLOSED-CAPTIONS, or CLOSED-CAPTIONS attribute != NONE on EXT-X-STREAM-INF; redirects followed) and from ffprobe subtitle streams; stored in the probe cache. Burned-in subtitles cannot be detected this way. Tri-state: yes / no / unknown (media-playlist URLs and failed manifest fetches stay unknown).
-- Working streams classified: 20 with subtitles, 22 without, 287 unknown (of 329 working).
-- Channels whose PRIMARY changed because of the subtitle tiebreak (same tier, new primary has subtitles, old did not): 0
-- Channels whose top-3 membership changed under the new key: 1 (广东珠江)
+- Working streams classified: 19 with subtitles, 27 without, 251 unknown (of 297 working).
+- Channels whose PRIMARY changed because of the subtitle tiebreak (same tier, new primary has subtitles, old did not): 2
+  - 翡翠台: http://r.jdshipin.com/GeWKr -> http://r.jdshipin.com/qrfbg (both FHD tier; new primary has subtitles)
+  - 西游记: http://173.208.234.146/live/vlxyj.m3u8 -> http://live.ottiptv.cc/huya/20985836 (both FHD tier; new primary has subtitles)
+- Channels whose primary changed due to the resolution-tier-first key (not the subtitle tiebreak): 3 (CCTV-13, 央视台球, 广东体育)
+- Channels whose top-3 membership changed under the new key: 2 (广东体育, 凤凰香港)
 
 ## Priority channels (working / tested streams)
-- CCTV: 59/165 streams working
-- Guangdong: 25/44 streams working
-- Shandong: 4/17 streams working
-- Hunan: 5/10 streams working
-- Hong Kong & Macau / Taiwan: 34/105 streams working
+- CCTV: 72/165 streams working
+- Guangdong: 22/44 streams working
+- Shandong: 3/17 streams working
+- Hunan: 4/10 streams working
+- Hong Kong & Macau / Taiwan: 33/106 streams working
 
 ## Slowest working streams (startup latency)
+- 广东体育 (http://r.jdshipin.com/LiYdg) - 58.499s, 1920x1080
+- 广东体育 (http://r.jdshipin.com/LiYdg) - 58.499s, 1920x1080
+- 广东珠江 (http://r.jdshipin.com/sE5vO) - 46.567s, 1920x1080
 - 香港电台普通话台 (https://rthkaudio6-lh.akamaihd.net/i/radiopth_1@355869/index_56_a-p.m3u8) - 43.074s, 0x0
 - 香港电台第二台 (https://rthkaudio2-lh.akamaihd.net/i/radio2_1@355865/index_56_a-p.m3u8) - 42.801s, 0x0
 - 香港电台普通话台 (https://rthkaudio6-lh.akamaihd.net/i/radiopth_1@355869/master.m3u8) - 42.456s, 0x0
 - KQED公共电台 (https://hls.kqed.org/hls/kqed_app/playlist.m3u8) - 39.284s, 0x0
 - 香港电台普通话台 (https://rthkradiopth-live.akamaized.net/hls/live/2040082/radiopth/master.m3u8) - 39.237s, 0x0
+- 水浒传 (http://live.ottiptv.cc/huya/26355860) - 38.837s, 1920x1080
 - 陕西卫视 (http://63.141.230.178:82/gslb/zbdq5.m3u8#id-f198c590fa) - 36.707s, 1280x720
-- NewTV动作电影 (https://iptv.catvod.com/live.php#id-fb419d5681) - 35.255s, 1920x1080
-- 山西卫视 (http://63.141.230.178:82/gslb/zbdq5.m3u8#id-1844304d9f) - 34.444s, 1280x720
-- 新城电台财经台 (https://1716664847.rsc.cdn77.org/1716664847/tracks-a1/mono.ts.m3u8) - 34.085s, 0x0
-- 天津卫视 (http://63.141.230.178:82/gslb/zbdq5.m3u8#id-f447f8af67) - 32.099s, 1280x720
 
 ## Hosts with most failures
 - zby.130519.xyz: 60 failed
 - [2409:8087:8:21::18]:6610: 35 failed
 - iptv.huuc.edu.cn: 33 failed
 - live.264788.xyz: 30 failed
-- epg.pw: 18 failed
+- ls.qingting.fm: 23 failed
+- jwcdnqx.hebyun.com.cn: 20 failed
 - php.jdshipin.com: 16 failed
 - gslbmgsplive.miguvideo.com: 14 failed
-- ls.qingting.fm: 14 failed
 - hls-gateway.vpstv.net: 13 failed
-- iptv.cdn.ha.chinamobile.com: 12 failed
+- epg.pw: 13 failed
 
 ## Method
 - ffprobe probe (-extension_picky 0 + browser User-Agent), 8s timeout, concurrency 10, 1 retry; TLS/IO/Invalid-data failures fall back to segment-file probing (verification_method column in diagnostics.csv).
 - Engine v2: canary pre-flight, Stage-A triage for ordering only (never eliminates), host circuit-breaker + channel early-stop mark streams skipped/not_tested (previous verified state kept, never counted as failures; priority/must-have channels exempt), death verdict requires the full rescue ladder, IPv6-only failures are environment_unverifiable. Host profiles persist in hosts.json.
-- Streams not tested this round (breaker/early-stop): 63
+- Streams not tested this round (breaker/early-stop): 99
 - Priority channels additionally decoded with ffmpeg for ~15s for stability.
 - Extra sources (iptv-org + music hunt) are fetched every run, URL-deduped against the Guovin pool, name-mapped to logical channels (explicit alias table; local-channel translations only accepted when the exact Chinese channel already exists in the pool), and probed with the same full ladder; diagnostics carry a source_origin column (guovin / iptv-org / hunt:<name>).
 - Round 3 sources follow the same discipline: US channels are a curated allowlist matched against iptv-org US + Free-TV (no wholesale import of local affiliates); documentary takes only China-related entries from iptv-org's documentary category plus a 纪实/纪录 aggregator hunt; radio candidates come from a curated station list refreshed via the Radio Browser API plus official URLs, are probed with the audio ladder (audio stream required, video not required; pointer .m3u/.pls playlists resolved first), and get an 8s audio-decode stability check. source_origin values: iptv-org-us / free-tv / radio-browser / official / iptv-org / hunt:<name>.
