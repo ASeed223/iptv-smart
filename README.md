@@ -33,4 +33,4 @@ Channel display names carry a **quality label** based on each stream's verified 
 
 - Streams are cloud-verified from the test environment, not California-verified; home playback is not guaranteed.
 - Sources: primary https://guovin.github.io/iptv-api/result.m3u , second source iptv-org (CN/HK/TW country lists), plus a Chinese music-channel hunt across public aggregator playlists; Round 3 adds iptv-org US + documentary category, the Free-TV playlist, and radio candidates refreshed from the Radio Browser API against a curated station list (plus official station URLs) — all streams are publicly available sources; no private tokens or credentials are published here. Extra-source candidates are verified with the same probe ladder and only included if confirmed working.
-- Updates are pushed to the same file paths, so the APTV URL never changes.
+- Updates are pushed automatically through the GitHub API on a schedule (daily 16:12, evening 20:12, weekly Monday 04:12 California time), always to the same file paths, so the APTV URL never changes.
